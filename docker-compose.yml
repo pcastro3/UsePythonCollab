@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  usepythoncollab:
+    image: usepythoncollab
+    build:
+      context: .
+      dockerfile: ./Dockerfile
